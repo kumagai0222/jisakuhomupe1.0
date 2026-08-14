@@ -1,1 +1,24 @@
 # jisakuhomupe1.0
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .item { padding: 20px; background: #f0f0f0; text-align: center; border-radius: 10px; }
+    a { text-decoration: none; color: #333; font-size: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+  <p>テーマを選んでください。</p>
+
+  <div class="grid">
+    <div class="item"><a href="nature/">自然</a></div>
+    <div class="item"><a href="city/">都市</a></div>
+    <div class="item"><a href="animals/">動物</a></div>
+  </div>
+</body>
+</html>
